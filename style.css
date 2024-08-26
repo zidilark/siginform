@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+
+}
+html{
+    font-size: 14px;
+
+}
+.login-with img{
+    max-width: 25px;
+    margin: 0 15px 0  0;
+
+}
+.wrappe input{
+    background-color: var(--light-white);
+    border-color: var(--light-white);
+    color: var(--gray);
+}
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .btn {
+    padding: 10px 15px;
+    font-weight: 500;
+}
+.wrapper .login-with:focus,
+.wrapper .btn:focus{
+    box-sizing: none;
+}
+.wrapper .login-with:focus:hover{
+    background-color: var(--gray-1);    
+    border-color: var(--gray);
+}
